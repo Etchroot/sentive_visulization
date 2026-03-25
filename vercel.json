@@ -1,8 +1,7 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "http://4.157.234.69:8000/:path*"
+  "functions": {
+    "api/scent.js": {
+      "maxDuration": 30
     }
-  ]
+  }
 }
